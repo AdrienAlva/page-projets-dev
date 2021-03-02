@@ -58,20 +58,19 @@ header {
 	min-height: 150px;
 	display: flex;
 	flex-direction: column;
-	color: rgb(3, 102, 214);
+/*	color: rgb(3, 102, 214);*/
 }
 
 #signature {
-	font-family: 'Lobster', cursive;
 	margin: 0;
 	text-align: center;
+	font-weight: bold;
 }
 
 #name-div {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	/*height: 100%;*/
 	width: 100%;
 	box-shadow: -10px 30px 25px -1px rgba(0,0,0,0.80);
 	margin-bottom: 5%;			
@@ -81,17 +80,14 @@ header {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-/*	height: 100%;*/
 	width: 100%;
 	box-shadow: -10px 30px 25px -1px rgba(0,0,0,0.80);
 	margin-bottom: 5%;			
 }
 
 #check-github-div, #linkedin-div {
-/*	font-family: 'Truculenta', sans-serif;*/
 	display: flex;
 	flex-direction: column;
-/*	height: 100%;*/
 	width: 100%;
 	box-shadow: -10px 30px 25px -1px rgba(0,0,0,0.80);
 	margin-bottom: 5%;
@@ -114,7 +110,7 @@ header {
 	font-size: 2.5em;
 	text-align: center;
 	margin: 0;
-	color: rgb(3, 102, 214);
+/*	color: rgb(3, 102, 214);*/
 }
 
 #octocat-div {
@@ -155,6 +151,7 @@ header {
 	margin-top: 2.5vh;
 	box-shadow: -10px 30px 25px -1px rgba(0,0,0,0.80);
 	padding: 10px;
+	padding-top: 0;
 }
 
 #lrg-div {
@@ -173,10 +170,12 @@ header {
 
 #lrg-aside-data h2 {
 	width: 100%;
+	margin-top: 10px;
 }
 
 .pictures {
 	width: 50%;
+	margin-top: 10px;
 }
 
 figure {
@@ -449,6 +448,27 @@ img.hover-shadow {
 	width: 100%;
 	display: flex;
 	background-color: black;
+}
+
+
+/* Coins pliés */
+.project-box:before{
+	content: "";
+	position: absolute;
+	right: 2.5%;
+	border-style: solid;
+	border-width: 0px 30px 30px 0px;
+	height: 0px;
+	width: 0px;
+	display: block;
+	-moz-box-shadow: 0pt 2px 1px rgba(0, 0, 0, 0.2), -2px 1px 1px rgba(0, 0, 0, 0.1);
+	-webkit-box-shadow: 0pt 2px 1px rgba(0, 0, 0, 0.2), -2px 1px 1px rgba(0, 0, 0, 0.1);
+	box-shadow: 0pt 2px 1px rgba(0, 0, 0, 0.2), -2px 1px 1px rgba(0, 0, 0, 0.1);
+	-moz-border-radius: 0pt 0pt 0pt 5px;
+	-webkit-border-radius: 0pt 0pt 0pt 5px;
+	border-radius: 0pt 0pt 0pt 5px;
+	border-color: rgb(69, 72, 81) rgb(69, 72, 81) white white;
+	border-width: 10px;
 }
 
 /* MOBILE */

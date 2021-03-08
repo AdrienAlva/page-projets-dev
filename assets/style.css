@@ -374,7 +374,7 @@ figcaption {
 }
 
 /* Hide the slides by default */
-.mySlides {
+.mySlides_1, .mySlides_2 {
   display: none;
 }
 

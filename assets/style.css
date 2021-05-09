@@ -16,7 +16,7 @@ body {
 }
 
 
-h1 {
+h1, h2 {
 	margin: 0;
 	text-align: center;
 }
@@ -64,7 +64,6 @@ header {
 #signature {
 	margin: 0;
 	text-align: center;
-	font-weight: bold;
 }
 
 #name-div {
@@ -200,14 +199,17 @@ figcaption {
     text-align: center;
 }
 
+.font-green {
+	color: green;
+}
 
+.font-orange {
+	color: orange;
+}
 
-
-
-
-
-
-
+.font-red {
+	color: red;
+}
 
 
 /* Buttons to see repo */
@@ -512,8 +514,9 @@ img.hover-shadow {
 		margin-bottom: 0;
 	}
 
-	#job-div h1 {
+	#job-div h2 {
 		font-size: 1.6em;
+		text-align: center;
 	}
 
 	#check-github-div, #linkedin-div-mob {

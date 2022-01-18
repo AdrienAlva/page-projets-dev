@@ -5,6 +5,8 @@ function openModal(gallery_id) {
     document.getElementById("myModal_1").style.display = "block";    
   } else if (gallery_id == 2){
     document.getElementById("myModal_2").style.display = "block";
+  } else if (gallery_id == 3){
+    document.getElementById("myModal_3").style.display = "block";
   } else {
     return;
   }
@@ -16,6 +18,8 @@ function closeModal(gallery_id) {
     document.getElementById("myModal_1").style.display = "none";    
   } else if (gallery_id == 2){
     document.getElementById("myModal_2").style.display = "none";
+  } else if (gallery_id == 3){
+    document.getElementById("myModal_3").style.display = "none";
   } else {
     return;
   }

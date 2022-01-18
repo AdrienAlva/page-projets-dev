@@ -162,12 +162,12 @@ header {
 	text-decoration: underline;
 }
 
-#lrg-aside-data  {
+.lrg-aside-data  {
 	width: 50%;
 	padding-right: 2.5%;
 }
 
-#lrg-aside-data h2 {
+.lrg-aside-data h2 {
 	width: 100%;
 	margin-top: 10px;
 }

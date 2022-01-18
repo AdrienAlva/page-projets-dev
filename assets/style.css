@@ -588,12 +588,12 @@ img.hover-shadow {
 		text-decoration: underline;
 	}
 
-	#lrg-aside-data  {
+	.lrg-aside-data  {
 		width: 100%;
 		padding-right: 0;
 	}
 
-	#lrg-aside-data h2 {
+	.lrg-aside-data h2 {
 		width: 100%;
 		margin-top: 10px;
 	}
